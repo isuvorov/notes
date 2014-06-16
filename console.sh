@@ -19,6 +19,7 @@ ssh root@server.ru 'cd /var/www && tar -cf - anfeya | gzip -9' > anfeya_2014_04_
 
 ssh root@server.ru 'cd /var/www && tar -cf - anfeya | gzip -9' > anfeya_2014_04_19.tgz
 
+#логинется по ssh и скачивает файл
 scp root@vknote.ru:landingov.sql ~/landingov.sql
 
 #wget "http://shell.skillweb.ru/json/update.php" -O "save/update.html"
