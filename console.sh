@@ -16,9 +16,6 @@ tar -czvf bakemol.tar.gz opencart.hahabr.ru
 #а это еще круче: архивируем удаленную директорию, с максимальным сжатием, и выкачиваем файл по ssh
 ssh root@vknote.ru 'cd /var/www && tar -cf - anfeya | gzip -9' > anfeya_2014_04_19.tgz
 
-ssh root@vknote.ru 'cd /var/www && tar -cf - anfeya | gzip -9' > anfeya_2014_04_19.tgz
-
-
 #wget "http://shell.skillweb.ru/json/update.php" -O "save/update.html"
 #wget "http://shell.skillweb.ru/json/" -O "save/index.html"
 #scp -r save suvorov@vknote.ru:/var/www/suvorov/data/www/coder24.ru/kpi
