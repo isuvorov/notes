@@ -11,10 +11,15 @@ cat ~/.ssh/id_rsa.pub | ssh Root@office.skillweb.ru 'cat >>.ssh/authorized_keys'
 cat ~/.ssh/id_rsa.pub | ssh root@192.168.7.18 'mkdir ~/.ssh; cat >> ~/.ssh/authorized_keys'
 
 #архивируем директорию
-tar -czvf bakemol.tar.gz opencart.hahabr.ru
+tar -czvf bikemol.tar.gz opencart.hahabr.ru
 
 #а это еще круче: архивируем удаленную директорию, с максимальным сжатием, и выкачиваем файл по ssh
-ssh root@vknote.ru 'cd /var/www && tar -cf - anfeya | gzip -9' > anfeya_2014_04_19.tgz
+ssh root@server.ru 'cd /var/www && tar -cf - anfeya | gzip -9' > anfeya_2014_04_19.tgz
+
+
+ssh root@server.ru 'cd /var/www && tar -cf - anfeya | gzip -9' > anfeya_2014_04_19.tgz
+
+scp root@vknote.ru:landingov.sql ~/landingov.sql
 
 #wget "http://shell.skillweb.ru/json/update.php" -O "save/update.html"
 #wget "http://shell.skillweb.ru/json/" -O "save/index.html"
