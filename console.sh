@@ -1,1 +1,1 @@
-mysqldump -p -u it-interview it-interview > it-interview_`date +%d_%b_%Y`.sql 
+mysqldump -p -u it-interview it-interview > it-interview_`date +%d_%b_%Y`.sql  # дампим базу в файл
