@@ -4,11 +4,9 @@ mysql -uit-interview -pASdasdasdas it-interview < it-interview_12_02_2014.sql  #
 
 
 
+#создает папку .ssh если еще не создана
 #закидываем свой публичный ключ на удаленный комп, для того, чтобы потом коннектиться к нему по ssh без пароля
-cat ~/.ssh/id_rsa.pub | ssh Root@office.skillweb.ru 'cat >>.ssh/authorized_keys'
-
-#тоже самое, но еще если папка .ssh не создана, то не дает сбои
-cat ~/.ssh/id_rsa.pub | ssh root@192.168.7.18 'mkdir ~/.ssh; cat >> ~/.ssh/authorized_keys'
+cat ~/.ssh/id_rsa.pub | ssh root@192.168.7.18 'mkdir -p -v ~/.ssh; cat >> ~/.ssh/authorized_keys'
 
 #архивируем директорию
 tar -czvf bikemol.tar.gz opencart.hahabr.ru
