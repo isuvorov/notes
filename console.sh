@@ -27,6 +27,7 @@ scp root@vknote.ru:landingov.sql ~/landingov.sql
 
 
 
+
 useradd -s /bin/bash -d /home/isuvorov isuvorov
 passwd isuvorov
 mkdir /home/isuvorov
@@ -34,6 +35,10 @@ chown isuvorov:isuvorov /home/isuvorov
 
 
 useradd -g primary_grp -G admin -s /bin/shell -p xxxx -d /home/user
+
+
+curl -sS https://getcomposer.org/installer | php 
+mv composer.phar /usr/local/bin/composer
 
 #wget "http://shell.skillweb.ru/json/update.php" -O "save/update.html"
 #wget "http://shell.skillweb.ru/json/" -O "save/index.html"
