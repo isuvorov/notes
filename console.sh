@@ -40,6 +40,12 @@ useradd -g primary_grp -G admin -s /bin/shell -p xxxx -d /home/user
 curl -sS https://getcomposer.org/installer | php 
 mv composer.phar /usr/local/bin/composer
 
+
+CREATE USER 'newuser'@'localhost' IDENTIFIED BY 'password';
+GRANT ALL PRIVILEGES ON * . * TO 'newuser'@'localhost';
+FLUSH PRIVILEGES;
+
+
 #wget "http://shell.skillweb.ru/json/update.php" -O "save/update.html"
 #wget "http://shell.skillweb.ru/json/" -O "save/index.html"
 #scp -r save suvorov@vknote.ru:/var/www/suvorov/data/www/coder24.ru/kpi
