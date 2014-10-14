@@ -26,6 +26,9 @@ ssh root@server.ru 'cd /var/www && tar -cf - anfeya | gzip -9' > anfeya_2014_04_
 scp root@vknote.ru:landingov.sql ~/landingov.sql
 
 
+#залить директорию на сервер
+scp -r mydirectory username@example.com:destdir
+
 
 
 useradd -s /bin/bash -d /home/isuvorov isuvorov
