@@ -30,20 +30,27 @@ scp root@vknote.ru:landingov.sql ~/landingov.sql
 scp -r mydirectory username@example.com:destdir
 
 
+#tail 
+tail -f  /var/log/apache2/error.log
 
+
+#добавляем юзера
 useradd -s /bin/bash -d /home/isuvorov isuvorov
 passwd isuvorov
 mkdir /home/isuvorov
 chown isuvorov:isuvorov /home/isuvorov
 
 
+
 useradd -g primary_grp -G admin -s /bin/shell -p xxxx -d /home/user
 
 
+#Устанваливаем композер глобально
 curl -sS https://getcomposer.org/installer | php 
 mv composer.phar /usr/local/bin/composer
 
 
+#создаем пользователя mysql
 CREATE USER 'newuser'@'localhost' IDENTIFIED BY 'password';
 GRANT ALL PRIVILEGES ON * . * TO 'newuser'@'localhost';
 FLUSH PRIVILEGES;
