@@ -29,7 +29,7 @@ html
         script(type='text/javascript', src='http://yastatic.net/jquery/2.1.3/jquery.min.js')
         script(type='text/javascript', src='http://yastatic.net/bootstrap/3.3.1/js/bootstrap.min.js')
         script(type='text/javascript', src='http://yastatic.net/underscore/1.6.0/underscore-min.js')
-        block layout-footer
+        block layout-foot
 ```
 
 ####Apache2 конфигурация
