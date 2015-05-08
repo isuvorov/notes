@@ -50,6 +50,8 @@ useradd -g primary_grp -G admin -s /bin/shell -p xxxx -d /home/user
 curl -sS https://getcomposer.org/installer | php 
 mv composer.phar /usr/local/bin/composer
 
+#глубокое скачивание
+wget --no-parent --timestamping --convert-links --page-requisites --no-host-directories -erobots=off http://demo.oscodo.com/obsession-v1.1/html-video-bg/dark-demo-two-video-transparent-pattern.html
 
 #создаем пользователя mysql
 CREATE USER 'newuser'@'localhost' IDENTIFIED BY 'password';
