@@ -10,6 +10,8 @@ rename s/'^'/'MyPrefix'/ *
 #создает папку .ssh если еще не создана
 #закидываем свой публичный ключ на удаленный комп, для того, чтобы потом коннектиться к нему по ssh без пароля
 cat ~/.ssh/id_rsa.pub | ssh root@192.168.7.18 'mkdir -p -v ~/.ssh; cat >> ~/.ssh/authorized_keys'
+#альтернатива
+ssh-copy-id root@192.168.7.18
 
 #архивируем директорию
 tar -czvf bikemol.tar.gz opencart.hahabr.ru
