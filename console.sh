@@ -53,7 +53,11 @@ curl -sS https://getcomposer.org/installer | php
 mv composer.phar /usr/local/bin/composer
 
 #глубокое скачивание
+wget --no-parent --timestamping --convert-links --page-requisites --no-host-directories -erobots=off http://landing001.akropol-st.ru/
 wget --no-parent --timestamping --convert-links --page-requisites --no-host-directories -erobots=off http://demo.oscodo.com/obsession-v1.1/html-video-bg/dark-demo-two-video-transparent-pattern.html
+wget --no-parent --timestamping --convert-links --page-requisites --no-host-directories -erobots=off http://landing001.akropol-st.ru/
+wget --no-parent --timestamping --convert-links --page-requisites --no-host-directories -erobots=off --adjust-extension http://landing001.akropol-st.ru/
+
 
 #создаем пользователя mysql
 CREATE USER 'newuser'@'localhost' IDENTIFIED BY 'password';
