@@ -58,6 +58,8 @@ wget --no-parent --timestamping --convert-links --page-requisites --no-host-dire
 wget --no-parent --timestamping --convert-links --page-requisites --no-host-directories -erobots=off http://landing001.akropol-st.ru/
 wget --no-parent --timestamping --convert-links --page-requisites --no-host-directories -erobots=off --adjust-extension http://landing001.akropol-st.ru/
 
+wget -mpck --no-parent --user-agent="" -e robots=off --wait 1  http://web.archive.org/web/20141216214338/http://biz-accord.ru/
+wget --no-parent --timestamping --convert-links --page-requisites --no-host-directories -erobots=off --adjust-extension  --mirror --domains=staticweb.archive.org,web.archive.org http://web.archive.org/web/20141216214338/http://biz-accord.ru/
 
 #создаем пользователя mysql
 CREATE USER 'newuser'@'localhost' IDENTIFIED BY 'password';
