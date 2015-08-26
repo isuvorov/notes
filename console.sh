@@ -74,3 +74,8 @@ rsync -az * quizly.ru:/var/www/oltri.mgbeta.ru
 #wget "http://shell.skillweb.ru/json/update.php" -O "save/update.html"
 #wget "http://shell.skillweb.ru/json/" -O "save/index.html"
 #scp -r save suvorov@vknote.ru:/var/www/suvorov/data/www/coder24.ru/kpi
+
+
+#Чистим докер
+docker rm `docker ps -a | grep Exited | awk '{print $1 }'`
+docker rmi `docker images -aq`
