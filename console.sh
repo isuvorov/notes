@@ -79,3 +79,6 @@ rsync -az * quizly.ru:/var/www/oltri.mgbeta.ru
 #Чистим докер
 docker rm `docker ps -a | grep Exited | awk '{print $1 }'`
 docker rmi `docker images -aq`
+
+#Увеличиваем своп, подробности https://www.digitalocean.com/community/tutorials/how-to-add-swap-on-ubuntu-14-04
+sudo fallocate -l 4G /swapfile
