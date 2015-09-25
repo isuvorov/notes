@@ -3,6 +3,10 @@ mysqldump -p -u it-interview it-interview > it-interview_`date +%d_%b_%Y`.sql  #
 
 mysql -uit-interview -pASdasdasdas it-interview < it-interview_12_02_2014.sql  # восстанавливаем базу из файла
 
+mongodump -d database123 --out ./dump2
+
+
+
 
 #быстро переименовать / добавить префикс
 rename s/'^'/'MyPrefix'/ *
