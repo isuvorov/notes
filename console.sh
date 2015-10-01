@@ -6,6 +6,12 @@ mysql -uit-interview -pASdasdasdas it-interview < it-interview_12_02_2014.sql  #
 mongodump -d database123 --out ./dump2
 
 
+#RESTORE (IMPORT UPLOAD!) from ~/db/dbname/*
+mongorestore --host localhost --port 21017 -d dbNewName ~/db/dbname
+
+#DUMP (EXPORT DOWNLOAD!) in ~/db/dbname/*
+mongodump --host ds34456436.mongolab.com -d dbname --port 876867 --username user --password pass --out ~/db
+
 
 
 #быстро переименовать / добавить префикс
