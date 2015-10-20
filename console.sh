@@ -79,6 +79,8 @@ FLUSH PRIVILEGES;
 
 #залить все файлы в удаленную папку
 rsync -az * quizly.ru:/var/www/oltri.mgbeta.ru
+#download folder
+rsync -chavzP mobi@mobi.faberlic.com:/home/mobi/dump2/faberlic_2015_09_18 ./dump
 
 
 #wget "http://shell.skillweb.ru/json/update.php" -O "save/update.html"
