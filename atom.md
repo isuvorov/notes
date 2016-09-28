@@ -26,6 +26,9 @@
 
 
 ##   Использую плагины
+
+`apm install package`
+
 * Stylus
 * activate-power-mode
 * advanced-open-file
