@@ -19,8 +19,8 @@
 * `cmd-shift-b` - искать все измененные файлы (которые в гит изменены)B
 
 
-* `ctrl+m - cmd-m` - найти конечную скобку
-* `ctrl+alt+m - cmd-ctrl-m` - выделить все в скобках
+* `ctrl+m`, `cmd-m` - найти конечную скобку
+* `ctrl+alt+m` `cmd-ctrl-m` - выделить все в скобках
 
 
 
@@ -29,9 +29,7 @@
 
 `apm install package`
 
-* Stylus
-* activate-power-mode
-* advanced-open-file
+* `advanced-open-file` -  позволяет открывать файлы и быстро создавать файлы с полдиректории
 * atom-beautify
 * atom-easy-jsdoc
 * atom-jade
