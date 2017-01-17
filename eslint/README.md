@@ -1,5 +1,8 @@
 
 
+```
+wget https://github.com/isuvorov/mynote/edit/master/eslint/.eslintrc -O ./.eslintrc 
+```
 
 ```
 yarn add --dev \
