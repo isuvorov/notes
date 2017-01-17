@@ -1,8 +1,11 @@
 
 
+## Скачиваем и перезаписываем eslint конфиг проекта
 ```
 wget https://github.com/isuvorov/mynote/edit/master/eslint/.eslintrc -O ./.eslintrc 
 ```
+
+## Устанавливаем зависимости для работы eslint
 
 ```
 yarn add --dev \
