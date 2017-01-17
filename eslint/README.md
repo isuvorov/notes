@@ -2,7 +2,8 @@
 
 ## Скачиваем и перезаписываем eslint конфиг проекта
 ```
-wget https://github.com/isuvorov/mynote/edit/master/eslint/.eslintrc -O ./.eslintrc 
+wget https://raw.githubusercontent.com/isuvorov/mynote/master/eslint/.eslintrc \
+  -O ./.eslintrc 
 ```
 
 ## Устанавливаем зависимости для работы eslint
