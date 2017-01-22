@@ -1,4 +1,11 @@
 
+## Autorun
+
+```
+wget "https://raw.githubusercontent.com/isuvorov/mynote/master/eslint/update.sh"
+```
+
+
 ## Eslint
 
 ### Скачиваем и перезаписываем eslint конфиг проекта
