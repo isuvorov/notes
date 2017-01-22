@@ -18,3 +18,5 @@ yarn add --dev \
   eslint-plugin-jsx-a11y@3.0.1 \
   eslint-plugin-react@6.7.1
 ```
+
+## Babel plugins
