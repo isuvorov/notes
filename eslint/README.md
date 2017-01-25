@@ -8,7 +8,7 @@ For lazy guys
 wget -O - "https://raw.githubusercontent.com/isuvorov/mynote/master/eslint/update.sh" | sh
 ```
 
-# Desctiption
+# Description
 
 ## Eslint
 
