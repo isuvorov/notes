@@ -19,19 +19,18 @@ wget https://raw.githubusercontent.com/isuvorov/mynote/master/eslint/.eslintrc \
 ```
 yarn add --dev \
   babel-eslint@7.1.1 \
-  eslint@3.11.0 \
+  eslint@3.14.0 \
   eslint-config-airbnb@14.0.0 \
-  eslint-loader@1.3.0 \
   eslint-plugin-import@2.2.0 \
-  eslint-plugin-jsx-a11y@3.0.1 \
-  eslint-plugin-react@6.7.1
+  eslint-plugin-jsx-a11y@3.0.2 \
+  eslint-plugin-react@6.9.0
 ```
 
 ## Babel
 
 ### Скачиваем и перезаписываем babel конфиг проекта
 ```
-wget https://raw.githubusercontent.com/isuvorov/mynote/master/babel/.babelrc \
+wget https://raw.githubusercontent.com/isuvorov/mynote/master/eslint/.babelrc \
   -O ./.babelrc 
 ```
 
@@ -72,7 +71,7 @@ yarn add --dev \
   \
   babel-loader@6.2.4 \
   css-loader@0.26.1 \
-  eslint-loader@1.3.0 \
+  eslint-loader@1.6.1 \
   glob-loader@0.3.0 \
   json-loader@0.5.4 \
   postcss-loader@1.2.2 \
