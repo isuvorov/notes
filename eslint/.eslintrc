@@ -27,6 +27,8 @@
     "no-underscore-dangle": "warn",
     "global-require": "warn",
     "react/prop-types": "warn",
-    "react/jsx-first-prop-new-line": ["warn", "multiline-multiprop"]
+    "react/jsx-first-prop-new-line": "warn",
+    "guard-for-in": "off",
+    "no-restricted-syntax": ["error", "WithStatement"]
   }
 }
