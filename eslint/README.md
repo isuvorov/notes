@@ -2,7 +2,7 @@
 ## Autorun
 
 ```
-wget "https://raw.githubusercontent.com/isuvorov/mynote/master/eslint/update.sh"
+wget -O - "https://raw.githubusercontent.com/isuvorov/mynote/master/eslint/update.sh" | sh
 ```
 
 
