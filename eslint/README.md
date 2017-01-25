@@ -1,10 +1,14 @@
+# Npm dev dependencies starter-kit
 
-## Autorun
+## Quick start
+
+For lazy guys
 
 ```
 wget -O - "https://raw.githubusercontent.com/isuvorov/mynote/master/eslint/update.sh" | sh
 ```
 
+# Desctiption
 
 ## Eslint
 
