@@ -29,6 +29,7 @@
     "react/prop-types": "warn",
     "react/jsx-first-prop-new-line": "warn",
     "guard-for-in": "off",
-    "no-restricted-syntax": ["error", "WithStatement"]
+    "no-restricted-syntax": ["error", "WithStatement"],
+    "react/forbid-prop-types": "off"
   }
 }
