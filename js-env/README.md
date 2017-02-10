@@ -5,7 +5,7 @@
 For lazy guys
 
 ```
-wget -O - "https://raw.githubusercontent.com/isuvorov/mynote/master/eslint/update.sh" | sh
+wget -O - "https://raw.githubusercontent.com/isuvorov/notes/master/js-env/update.sh" | sh
 ```
 
 # Description
@@ -14,8 +14,8 @@ wget -O - "https://raw.githubusercontent.com/isuvorov/mynote/master/eslint/updat
 
 ### Скачиваем и перезаписываем eslint конфиг проекта
 ```
-wget https://raw.githubusercontent.com/isuvorov/mynote/master/eslint/.eslintrc \
-  -O ./.eslintrc 
+wget https://raw.githubusercontent.com/isuvorov/notes/master/js-env/.eslintrc \
+  -O ./.eslintrc
 ```
 
 ### Устанавливаем зависимости для работы eslint
@@ -34,8 +34,8 @@ yarn add --dev \
 
 ### Скачиваем и перезаписываем babel конфиг проекта
 ```
-wget https://raw.githubusercontent.com/isuvorov/mynote/master/eslint/.babelrc \
-  -O ./.babelrc 
+wget https://raw.githubusercontent.com/isuvorov/notes/master/js-env/.babelrc \
+  -O ./.babelrc
 ```
 
 ### Babel plugins
