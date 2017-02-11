@@ -72,6 +72,16 @@ tabs>show icons = off
 tabs>use preview tabs = on
 
 
+## Настройка ES-Lint и reformat (beautifiy)
+
+`cmd+shift+p` > `keymap` 
+
+```
+'atom-text-editor':
+  'cmd-§': 'linter-eslint:fix-file'
+```
+
+
 ### Дополнительные планины
 
 #### tidy-tabs
