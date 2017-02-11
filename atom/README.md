@@ -12,8 +12,7 @@ Syntax Theme: Oceanic Next `oceanic-next`
 * `advanced-open-file`
 * `language-babel`
 * `language-postcss`
-* `linter`
-* `linter-eslint`
+* `linter`, `linter-eslint`
 * `merge-conflicts`
 * `pigments`
 * `minimap, minimap-cursorline, minimap-find-and-replace, minimap-pigments`
