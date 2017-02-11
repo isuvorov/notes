@@ -2,8 +2,8 @@
 Темы, плагины, настройки, советы
 
 ## Темы
-UI Theme: One dark
-Syntax Theme: Oceanic Next `oceanic-next`
+* UI Theme: One dark
+* Syntax Theme: Oceanic Next `oceanic-next`
 
 ##  Плагины
 
