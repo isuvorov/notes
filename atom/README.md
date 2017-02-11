@@ -1,6 +1,34 @@
-# ATOM 
+# Atom starter kit
+Темы, плагины, настройки, советы
 
-### `ctrl+shift+p` - поиск по командам
+## Темы
+UI Theme: One dark
+Syntax Theme: Oceanic Next `oceanic-next`
+
+##  Плагины
+
+Чтобы установить плагины через терминал воспользуйтесь: `apm install package`
+
+* `advanced-open-file` -  позволяет открывать файлы и быстро создавать файлы с полдиректории
+* `language-babel`
+* `language-postcss`
+* `linter`
+* `linter-eslint`
+* `merge-conflicts`
+* `pigments`
+* `minimap, minimap-cursorline, minimap-find-and-replace, minimap-pigments`
+* `project-manager`
+* `autocomplete-modules`
+* `color-picker`
+* `platform-ide-terminal`
+* `docblockr`
+
+## Hotkeys - Горяцие клавиши
+
+### Основные
+
+* `ctrl+shift+p` - поиск по командам
+* `cmd+ctrl+p`, `alt+shift+p` - выбрать проект
 
 ### Работа с деревом
 * `ctrl+\`, `cmd-\` - показать скрыть дерево
@@ -9,90 +37,51 @@
 * `f2` - переименовать / переместить
 * `d` - dublicate
 
+### Multiple Selections
+* `cmd+d` - Выделить похожий паттерн
+* `cmd+u` - Отменить выделение
+* `ctrl+cmd+g` - Выделить все
+
 ### Поиски
 
-* `ctrl+shift+f` - искать текст по проекту
-* `ctrl+r` - поиск по методам
-* `ctrl+t`, `ctrl+p` - искать файл в проекте
-* `ctrl+b` - искать файл из открытых вкладок
-* `ctrl+shift+b` 
-* `cmd-shift-b` - искать все измененные файлы (которые в гит изменены)B
+* `cmd+shift+f` - искать текст по проекту
+* `cmd+r` - поиск по методам
+* `cmd+t`, `ctrl+p` - искать файл в проекте
+* `cmd+b` - искать файл из открытых вкладок
+* `cmd-shift-b` - искать все измененные файлы (которые изменены в GIT)
 
-
-* `ctrl+m`, `cmd-m` - найти конечную скобку
+### Скобки
+* `ctrl+m` - найти конечную скобку
 * `ctrl+alt+m` `cmd-ctrl-m` - выделить все в скобках
-
-
-
-
-##   Использую плагины
-
-`apm install package`
-
-* `advanced-open-file` -  позволяет открывать файлы и быстро создавать файлы с полдиректории
-* atom-beautify
-* atom-easy-jsdoc
-* atom-jade
-* atom-jshint
-* bemhtml
-* docblockr
-* emmet
-* file-icons
-* gist-it
-* git-projects
-* jscs-fixer
-* language-babel
-* linter
-* linter-jscs
-* merge-conflicts
-* minimap
-* minimap-cursorline
-* minimap-find-and-replace
-* minimap-pigments
-* monokai
-* navigate
-* oceanic-next
-* oceanic-theme
-* pigments
-* pinned-tabs
-* project-manager
-* tabs-closer
-* terminal-plus
-* tidy-tabs
-* todo-show
 
 
 ### А также
 
 * `ctrl+shift+m` - markdown preview
+* `ctrl+shift+l` - выбрать грамматику подсветки
 
+## Советы
 
-Плагины
 autosave> включить
 tabs>color = true
 tabs>show icons = off
 tabs>use preview tabs = on
 
 
-tidy-tabs
+### Дополнительные планины
+
+#### tidy-tabs
 ctrl+alt+shift+w
 
-gist-it
+#### gist-it
 ctrl+alt+g  - Gist Current File
 ctrl+alt+shift+g  -  Gists the contents of the current selection
 
 
-alt+shift+p - выбрать проект
-
-
-### работа с терминалом
-> terminal-plus
-
+### terminal-plus
 ctrl+entr -  скопировать , вставить в терминал, запустить
 
 
 
 
 
-
-ctrl+shift+l - выбрать грамматику подсветки
