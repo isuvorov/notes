@@ -30,6 +30,8 @@ yarn add --dev \
   eslint-plugin-react@6.9.0
 ```
 
+[Настройка ATOM для ES-Lint](https://github.com/isuvorov/notes/blob/master/atom/README.md#eslint).
+
 ## Babel
 
 ### Скачиваем и перезаписываем babel конфиг проекта
