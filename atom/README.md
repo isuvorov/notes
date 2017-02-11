@@ -9,7 +9,7 @@ Syntax Theme: Oceanic Next `oceanic-next`
 
 Чтобы установить плагины через терминал воспользуйтесь: `apm install package`
 
-* `advanced-open-file` -  позволяет открывать файлы и быстро создавать файлы с полдиректории
+* `advanced-open-file`
 * `language-babel`
 * `language-postcss`
 * `linter`
