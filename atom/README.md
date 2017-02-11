@@ -9,9 +9,6 @@ Syntax Theme: Oceanic Next `oceanic-next`
 
 Чтобы установить плагины через терминал воспользуйтесь: `apm install ...`
 
-Установить все мои пакеты:
-`apm install advanced-open-file, language-babel, language-postcss, linter, linter-eslint, merge-conflicts, pigments, minimap, minimap-cursorline, minimap-find-and-replace, minimap-pigments, project-manager, autocomplete-modules, color-picker, platform-ide-terminal, docblockr`
-
 * `advanced-open-file`
 * `language-babel`
 * `language-postcss`
@@ -25,6 +22,10 @@ Syntax Theme: Oceanic Next `oceanic-next`
 * `color-picker`
 * `platform-ide-terminal`
 * `docblockr`
+
+Установить все эти плагины:
+
+`apm install advanced-open-file, language-babel, language-postcss, linter, linter-eslint, merge-conflicts, pigments, minimap, minimap-cursorline, minimap-find-and-replace, minimap-pigments, project-manager, autocomplete-modules, color-picker, platform-ide-terminal, docblockr`
 
 ## Hotkeys - Горяцие клавиши
 
