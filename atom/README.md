@@ -72,7 +72,7 @@ tabs>show icons = off
 tabs>use preview tabs = on
 
 
-## Es-lint
+## Eslint
 Настройка ES-Lint и reformat (beautify)
 
 `cmd+shift+p` > `keymap` 
