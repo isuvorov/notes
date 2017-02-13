@@ -96,6 +96,33 @@ ctrl+alt+shift+g  -  Gists the contents of the current selection
 ctrl+entr -  скопировать , вставить в терминал, запустить
 
 
+### Как писать свои плагины-хелперы
+
+Все очень просто:
 
 
+`cmd+shift+p > Init...`
+
+```coffee
+atom.commands.add 'atom-text-editor',
+  'custom:eslint-save-fix-file': ->
+    editor = atom.workspace.getActiveTextEditor()
+    atom.commands.dispatch(atom.views.getView(editor), 'core:save')
+    atom.commands.dispatch(atom.views.getView(editor), 'linter-eslint:fix-file')
+    atom.beep()
+  'custom:insert-eslint-disable-line': ->
+    comment = ' // eslint-disable-line'
+    editor = atom.workspace.getActiveTextEditor()
+    editor.moveToEndOfLine()
+    editor.insertText(comment)
+```
+
+
+`cmd+shift+p > keymap`
+
+```coffee
+'atom-text-editor':
+  'cmd-§': 'custom:eslint-save-fix-file'
+  'cmd-]': 'custom:insert-eslint-disable-line'
+```
 
