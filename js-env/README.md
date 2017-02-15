@@ -5,7 +5,7 @@
 For lazy users
 
 ```
-wget -O - "https://raw.githubusercontent.com/isuvorov/notes/master/js-env/update.sh" | sh
+wget -O - "https://raw.githubusercontent.com/isuvorov/notes/master/js-env/quick-start.sh" | sh
 ```
 
 # Description
