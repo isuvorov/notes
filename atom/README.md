@@ -24,7 +24,7 @@
 
 Установить все эти плагины:
 
-`apm install advanced-open-file, language-babel, language-postcss, linter, linter-eslint, merge-conflicts, pigments, minimap, minimap-cursorline, minimap-find-and-replace, minimap-pigments, project-manager, autocomplete-modules, color-picker, platform-ide-terminal, docblockr`
+`apm install advanced-open-file language-babel language-postcss linter linter-eslint merge-conflicts pigments minimap minimap-cursorline minimap-find-and-replace minimap-pigments project-manager autocomplete-modules color-picker platformio-ide-terminal docblockr`
 
 ## Hotkeys - Горячие клавиши
 
