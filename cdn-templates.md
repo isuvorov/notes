@@ -1,11 +1,11 @@
 
 #### HTML CDN links
 ```html
-<link rel="stylesheet" type="text/css" href="http://yastatic.net/bootstrap/3.3.1/css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="http://yastatic.net/bootstrap/3.3.6/css/bootstrap.min.css">
 <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.css">
 
 <script type="text/javascript" src="http://yastatic.net/jquery/2.1.3/jquery.min.js"></script>
-<script type="text/javascript" src="http://yastatic.net/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="http://yastatic.net/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 <script type="text/javascript" src="http://yastatic.net/underscore/1.6.0/underscore-min.js"></script>
  ```
 
