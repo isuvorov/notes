@@ -2,11 +2,11 @@
 
 1. Добавляем alias
 	`atom ~/.ssh/config`
-```
-HOST poly
-	HostName polygon.mgbeta.ru
-	USER root
-```
+	```
+	HOST poly
+		HostName polygon.mgbeta.ru
+		USER root
+	```
 2. Деплоим свой публичный ключ
 	`ssh-copy-id poly`
 3. Вводим один раз пароль
