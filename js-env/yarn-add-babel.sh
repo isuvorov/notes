@@ -12,7 +12,6 @@ yarn add --dev \
   babel-plugin-transform-runtime@6.9.0 \
   \
   babel-preset-es2015@6.9.0 \
-  babel-preset-node5@12.0.0 \
   babel-preset-react@6.5.0 \
   babel-preset-stage-2@6.5.0 \
   \
