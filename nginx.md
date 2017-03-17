@@ -30,7 +30,7 @@ server {
 
   # прокидываю статику
   location /assets {
-    root /projects/lsk/assets;
+    root /projects/lsk/app/assets;
   }
   # проксирую ноду
   location / {
