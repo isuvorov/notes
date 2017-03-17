@@ -16,7 +16,7 @@
 ### Конфиг проекта
 
 `/projects/lsk/nginx.conf`
-```conf
+```nginx
 server {
   server_name lsk.mgbeta.ru;
   listen 80;
@@ -42,13 +42,13 @@ server {
 
 ### Общий конфиг всех сайтов
 `/projects/.nginx/www.conf`
-```conf
+```nginx
 include /projects/.nginx/errors.conf;
 include /projects/.nginx/gzip.conf;
 
 ### Включаю gzip
 `/projects/.nginx/gzip.conf`
-```conf
+```nginx
 gzip on;
 gzip_disable "msie6";
 gzip_types text/plain text/css application/json application/x-javascript text/xml application/xml application/xml+rss text/javascript application/javascript;
@@ -57,7 +57,7 @@ gzip_comp_level 6;
 
 ### Подменяю nginx ошибки
 `/projects/.nginx/errors.conf`
-```conf
+```nginx
 error_page 400 /400.html;
 error_page 401 /401.html;
 error_page 403 /403.html;
@@ -75,7 +75,7 @@ location ~ /(400|401|403|404|500|502|503|504).html {
 
 ### Конфиг для проксирования
 `/projects/.nginx/proxy.conf`
-```conf
+```nginx
 proxy_set_header Host $http_host;
 proxy_set_header X-Real-IP $remote_addr;
 proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
@@ -86,7 +86,7 @@ proxy_set_header Connection "upgrade";
 
 ### Конфиг для https
 `/projects/.nginx/mgbeta.ru.ssl.conf`
-```conf
+```nginx
 if ($scheme = http) {
   return 301 https://$http_host$request_uri;
 }
