@@ -3,6 +3,7 @@
 
 ## Опыт с React Native
 ## Опыт со Skill Branch
+## О том как мы с нуля делали BuzzGuru
 
 # Open Sourse проекты
 
