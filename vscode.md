@@ -8,7 +8,7 @@
 
 ##   Использую плагины
 
-```
+```sh
 #!/bin/sh
 
 # download vscode, move in applications
