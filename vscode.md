@@ -73,6 +73,8 @@ settings.json
   "workbench.iconTheme": "vscode-icons",
   "workbench.startupEditor": "newUntitledFile",
   "projects.statusbarCommand": "projects.openNewWindow",
+  "projectManager.projectsLocation": "/Users/isuvorov/projects",
+  "projectManager.removeCurrentProjectFromList": false,
   "editor.tabSize": 2,
   "telemetry.enableCrashReporter": false,
   "telemetry.enableTelemetry": false,
