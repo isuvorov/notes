@@ -5,7 +5,6 @@ const projectDirs = [__dirname, __dirname + '/lskjs'];
 
 function isProject(file, projectDir) {
   if (file === 'node_modules') return false;
-  if (file === 'lskjs') return false;
   if (file[0] === '_') return false;
   if (file[0] === '.') return false;
   return fs.lstatSync([projectDir, file].join('/')).isDirectory();
