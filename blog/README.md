@@ -4,4 +4,4 @@ Notes
 ## Привет Соня, как дила?
 
 
-[Demo test blog](/blog/demo)
+[Demo test blog](/blog/demo.md)
