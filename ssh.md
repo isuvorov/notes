@@ -37,7 +37,7 @@ HOST *
 2. закидывает свой публичный ключ с локального компа отсюда `~/.ssh/id_rsa.pub`, на хост сюда `~/.ssh/authorized_keys`
 
 по сути выполняя след команду
-```sh
+```bash
 cat ~/.ssh/id_rsa.pub | ssh root@polygon.mgbeta.ru 'mkdir -p -v ~/.ssh; cat >> ~/.ssh/authorized_keys'
 ```
 

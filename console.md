@@ -12,7 +12,7 @@ sudo swapon /swapfile
 ```
 
 ### добавляем юзера
-```sh
+```bash
 useradd -s /bin/bash -d /home/testuser testuser
 passwd testuser
 mkdir /home/testuser
@@ -38,55 +38,55 @@ docker rmi `docker images -aq`
 ## Linux utils
 
 ### быстро переименовать / добавить префикс
-```sh
+```bash
 rename s/'^'/'MyPrefix'/ *
 ```
 
 ### архивируем директорию
-```sh
+```bash
 tar -czvf bikemol.tar.gz opencart.hahabr.ru
 ```
 
 ### а это еще круче: архивируем удаленную директорию, с максимальным сжатием, и выкачиваем файл по ssh
-```sh
+```bash
 ssh root@server.ru 'cd /var/www && tar -cf - anfeya | gzip -9' > anfeya_2014_04_19.tgz
 ```
 ### логинется по ssh и скачивает файл [Устарело]
-```sh
+```bash
 scp root@vknote.ru:landingov.sql ~/landingov.sql
 ```
 ### залить директорию на сервер [Устарело]
-```sh
+```bash
 scp -r mydirectory username@example.com:destdir
 ```
 
 
 ### залить все файлы в удаленную папку
-```sh
+```bash
 rsync -az * quizly.ru:/var/www/oltri.mgbeta.ru
 ```
 
 ### download folder
-```sh
+```bash
 rsync -chavzP mobi@mobi.faberlic.com:/home/mobi/dump2/faberlic_2015_09_18 ./dump
 ```
 
 ### tail подписаться на измнения файла
-```sh
+```bash
 tail -f  /var/log/apache2/error.log
 ```
 
 
 ## WGET -- скачиваем всё из интеренета
 
-```sh
+```bash
 wget "http://shell.skillweb.ru/json/update.php" -O "save/update.html"
 wget "http://shell.skillweb.ru/json/" -O "save/index.html"
 ```
 
 ## глубокое скачивание
 
-```sh
+```bash
 wget --no-parent --timestamping --convert-links --page-requisites --no-host-directories -erobots=off http://landing001.akropol-st.ru/
 wget --no-parent --timestamping --convert-links --page-requisites --no-host-directories -erobots=off http://demo.oscodo.com/obsession-v1.1/html-video-bg/dark-demo-two-video-transparent-pattern.html
 wget --no-parent --timestamping --convert-links --page-requisites --no-host-directories -erobots=off http://landing001.akropol-st.ru/
@@ -113,24 +113,24 @@ FLUSH PRIVILEGES;
 ```
 
 ### дампим базу в файл
-```sh
+```bash
 mysqldump -p -u it-interview it-interview > it-interview_`date +%d_%b_%Y`.sql
 ```
 ### восстанавливаем базу из файла
-```sh
+```bash
 mysql -uit-interview -pASdasdasdas it-interview < it-interview_12_02_2014.sql
 ```
 
-```sh
+```bash
 mongodump -d database123 --out ./dump2
 ```
 
 ### RESTORE (IMPORT UPLOAD!) from ~/db/dbname/*
-```sh
+```bash
 mongorestore --host localhost --port 21017 -d dbNewName ~/db/dbname
 ```
 
 ### DUMP (EXPORT DOWNLOAD!) in ~/db/dbname/*
-```sh
+```bash
 mongodump --host ds34456436.mongolab.com -d dbname --port 876867 --username user --password pass --out ~/db
 ```
