@@ -2,7 +2,7 @@
 
 ### `ctrl+shift+p` - поиск по командам
 
-> shell command: install code command in PATH
+* shell command: install code command in PATH
 
 ### Работа с деревом
 * `ctrl+\`, `cmd-\` - показать скрыть дерево
