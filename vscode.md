@@ -2,6 +2,8 @@
 
 ### `ctrl+shift+p` - поиск по командам
 
+> shell command: install code command in PATH
+
 ### Работа с деревом
 * `ctrl+\`, `cmd-\` - показать скрыть дерево
 * `alt+\`, `ctrl-0` - переместиться в дерево, но не обратно
