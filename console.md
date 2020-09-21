@@ -24,6 +24,9 @@ chown testuser:testuser /home/testuser
 useradd -g primary_grp -G admin -s /bin/shell -p xxxx -d /home/user
 ```
 
+#### concat all files in one
+https://stackoverflow.com/questions/18006581/how-to-append-contents-of-multiple-files-into-one-file
+
 
 ## Docker
 
@@ -87,6 +90,7 @@ wget "http://shell.skillweb.ru/json/" -O "save/index.html"
 ## глубокое скачивание
 
 ```bash
+wget --no-parent --timestamping --convert-links --page-requisites --no-host-directories -erobots=off https://trafficstars.com/
 wget --no-parent --timestamping --convert-links --page-requisites --no-host-directories -erobots=off http://landing001.akropol-st.ru/
 wget --no-parent --timestamping --convert-links --page-requisites --no-host-directories -erobots=off http://demo.oscodo.com/obsession-v1.1/html-video-bg/dark-demo-two-video-transparent-pattern.html
 wget --no-parent --timestamping --convert-links --page-requisites --no-host-directories -erobots=off http://landing001.akropol-st.ru/
@@ -102,6 +106,23 @@ wget --no-parent --timestamping --convert-links --page-requisites --no-host-dire
 curl -sS https://getcomposer.org/installer | php 
 mv composer.phar /usr/local/bin/composer
 ```
+## PostgreSQL
+
+```
+CREATE DATABASE "my-db";
+CREATE USER "my-user" WITH ENCRYPTED PASSWORD 'mypass';
+GRANT ALL PRIVILEGES ON DATABASE "my-db" TO "my-user";
+```
+
+```
+psql -U username dbname < dbexport.pgsql
+psql postgres://my-user:my-password@host/my-db <  dbexport.pgsql
+```
+
+CREATE DATABASE "buzzguru-billing";
+CREATE USER "buzzguru-billing" WITH ENCRYPTED PASSWORD 'tPfo49riJvxasGrYTfhEjA';
+GRANT ALL PRIVILEGES ON DATABASE "buzzguru-billing" TO "buzzguru-billing";
+
 
 ## MySQL
 
