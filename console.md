@@ -142,16 +142,12 @@ mysqldump -p -u it-interview it-interview > it-interview_`date +%d_%b_%Y`.sql
 mysql -uit-interview -pASdasdasdas it-interview < it-interview_12_02_2014.sql
 ```
 
-```bash
-mongodump -d database123 --out ./dump2
+### DUMP (EXPORT DOWNLOAD!) in ~/db/dbname/*
+mongodump --host ds34456436.mongolab.com -d dbname --port 876867 --username user --password pass --collection user --collection order --out ~/db
+```
 ```
 
 ### RESTORE (IMPORT UPLOAD!) from ~/db/dbname/*
 ```bash
 mongorestore --host localhost --port 21017 -d dbNewName ~/db/dbname
-```
-
-### DUMP (EXPORT DOWNLOAD!) in ~/db/dbname/*
-```bash
-mongodump --host ds34456436.mongolab.com -d dbname --port 876867 --username user --password pass --out ~/db
 ```
