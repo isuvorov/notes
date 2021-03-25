@@ -55,7 +55,7 @@ https://docs.github.com/en/github/authenticating-to-github/adding-a-new-ssh-key-
 TODO: расписать более подробно тут
 
 
-### 3b. Gitlab
+### 3c. Gitlab standalone
 
 Добавлять сюда:
 https://git.isuvorov.com/-/profile/keys
