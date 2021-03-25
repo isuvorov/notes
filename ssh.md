@@ -26,9 +26,9 @@ HOST *
 
 ### 3. Деплоим свой публичный ключ на хост
 	
-1. `ssh-copy-id polygon.mgbeta.ru`
+1. `ssh-copy-id worker1.isuvorov.com`
 2. Вводим один раз пароль
-3. Теперь, в любое время можем подключаться без пароля:	`ssh polygon.mgbeta.ru`
+3. Теперь, в любое время можем подключаться без пароля:	`ssh worker1.isuvorov.com`
 
 Если не стоит `ssh-copy-id`, можно установить через [brew](/osx.md): `brew install ssh-copy-id`.
 
@@ -38,16 +38,16 @@ HOST *
 
 по сути выполняя след команду
 ```bash
-cat ~/.ssh/id_rsa.pub | ssh root@polygon.mgbeta.ru 'mkdir -p -v ~/.ssh; cat >> ~/.ssh/authorized_keys'
+cat ~/.ssh/id_rsa.pub | ssh root@worker1.isuvorov.com 'mkdir -p -v ~/.ssh; cat >> ~/.ssh/authorized_keys'
 ```
 
 
 ### 4* Альясы хоста
-Добавляем alias, чтобы подключаться по `ssh poly` и не мучаться
+Добавляем alias, чтобы подключаться по `ssh worker` и не мучаться
 
 - edit `~/.ssh/config`
 ```
-HOST poly
-	HostName polygon.mgbeta.ru
+HOST worker
+	HostName worker1.isuvorov.com
 	USER root
 ```
