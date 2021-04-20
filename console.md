@@ -89,6 +89,7 @@ important params
 -A, --acls                  preserve ACLs (implies -p)
 -E, --executability         preserve executability
     --rsync-path=PROGRAM    specify the rsync to run on remote machine
+    --del                   an alias for --delete-during
     --delete-after          receiver deletes after transfer, not before
     --exclude=PATTERN       exclude files matching PATTERN
     --exclude-from=FILE     read exclude patterns from FILE
