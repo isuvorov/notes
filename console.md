@@ -12,6 +12,7 @@ cd
 whoami
 cp
 cp -R
+mkdir -p 
 ```
 
 
