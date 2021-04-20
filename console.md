@@ -3,6 +3,19 @@
 
 ## Linux
 
+### Базовые команды
+
+```
+ls 
+ls -la
+cd 
+whoami
+cp
+cp -R
+```
+
+
+
 ### Увеличиваем своп, [подробности](https://www.digitalocean.com/community/tutorials/how-to-add-swap-on-ubuntu-14-04)
 ```
 sudo fallocate -l 4G /swapfile
@@ -62,6 +75,38 @@ scp root@vknote.ru:landingov.sql ~/landingov.sql
 scp -r mydirectory username@example.com:destdir
 ```
 
+
+# Rsync
+
+[More info](https://linux.die.net/man/1/rsync)
+
+
+important params
+```
+-a, --archive               archive mode; equals -rlptgoD (no -H,-A,-X)
+-v, --verbose               increase verbosity
+-p, --perms                 preserve permissions
+-A, --acls                  preserve ACLs (implies -p)
+-E, --executability         preserve executability
+    --rsync-path=PROGRAM    specify the rsync to run on remote machine
+    --delete-after          receiver deletes after transfer, not before
+    --exclude=PATTERN       exclude files matching PATTERN
+    --exclude-from=FILE     read exclude patterns from FILE
+    --progress              show progress during transfer
+-z, --compress              compress file data during the transfer
+-P                          same as --partial --progress
+-n, --dry-run               perform a trial run with no changes made
+```
+
+### Examples
+
+```bash
+rsync --rsync-path="sudo rsync" 
+```
+
+```bash
+rsync -aE --delete-after --perms --progress
+```
 
 ### залить все файлы в удаленную папку
 ```bash
