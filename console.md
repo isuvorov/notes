@@ -109,6 +109,10 @@ rsync --rsync-path="sudo rsync"
 rsync -aE --delete-after --perms --progress
 ```
 
+```bash
+rsync -apPh --del ../lskjs-bot-kit/packages/app/src/ src-bot-kit/
+```
+
 ### залить все файлы в удаленную папку
 ```bash
 rsync -az * quizly.ru:/var/www/oltri.mgbeta.ru
