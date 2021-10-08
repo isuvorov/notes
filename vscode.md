@@ -42,8 +42,24 @@ code --install-extension formulahendry.terminal
 
 # download vscode, move in applications
 # cmd + shift + p > shell install
+```
 
 
+### Add terminal icon in status bar
+
+https://marketplace.visualstudio.com/items?itemName=alefragnani.project-manager
+
+```bash
+code --install-extension alefragnani.project-manager
+```
+
+### Highlight TODO, FIXME etc
+
+https://marketplace.visualstudio.com/items?itemName=jgclark.vscode-todo-highlight
+
+```bash
+code --install-extension jgclark.vscode-todo-highlight
+```
 
 
 
