@@ -10,7 +10,21 @@
 
 ## Использую тему
 
-oceanic-plus
+
+https://marketplace.visualstudio.com/items?itemName=marcoms.oceanic-plus
+
+
+```bash
+code --install-extension marcoms.oceanic-plus
+```
+
+https://marketplace.visualstudio.com/items?itemName=vscode-icons-team.vscode-icons
+
+
+```bash
+code --install-extension vscode-icons-team.vscode-icons
+```
+
 
 ##   Использую плагины
 
