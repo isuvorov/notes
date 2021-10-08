@@ -10,13 +10,15 @@
 
 ## Использую тему
 
+### Set theme
 
 https://marketplace.visualstudio.com/items?itemName=marcoms.oceanic-plus
-
 
 ```bash
 code --install-extension marcoms.oceanic-plus
 ```
+
+### Set more file icons
 
 https://marketplace.visualstudio.com/items?itemName=vscode-icons-team.vscode-icons
 
@@ -25,6 +27,13 @@ https://marketplace.visualstudio.com/items?itemName=vscode-icons-team.vscode-ico
 code --install-extension vscode-icons-team.vscode-icons
 ```
 
+### Add terminal icon in status bar
+
+https://marketplace.visualstudio.com/items?itemName=formulahendry.terminal
+
+```bash
+code --install-extension formulahendry.terminal
+```
 
 ##   Использую плагины
 
@@ -35,9 +44,12 @@ code --install-extension vscode-icons-team.vscode-icons
 # cmd + shift + p > shell install
 
 
+
+
+
 extensions=(
   "eamodio.gitlens"
-  "dbaeumer.vscode-eslint"
+  "dbaeumervs.vscode-eslint"
   "robertohuertasm.vscode-icons"
   "jpoissonnier.vscode-styled-components"
   "christian-kohler.npm-intellisense"
