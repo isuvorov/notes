@@ -1,4 +1,4 @@
-# VSCODE 
+# VSCODE Starter Kit
 
 ## First launch 
 1. Trust ~/projects
@@ -32,17 +32,7 @@ https://marketplace.visualstudio.com/items?itemName=formulahendry.terminal
 code --install-extension formulahendry.terminal
 ```
 
-##   Использую плагины
-
-```bash
-#!/bin/sh
-
-# download vscode, move in applications
-# cmd + shift + p > shell install
-```
-
-
-### Add terminal icon in status bar
+### Project Manager
 
 https://marketplace.visualstudio.com/items?itemName=alefragnani.project-manager
 
@@ -233,6 +223,16 @@ eslint.code-snippets
 		"description": "Disable ESLint for the given line"
 	}
 }
+```
+
+
+##   Использую плагины
+
+```bash
+#!/bin/sh
+
+# download vscode, move in applications
+# cmd + shift + p > shell install
 ```
 
 
