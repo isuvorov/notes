@@ -1,0 +1,73 @@
+{
+    // Design
+    "terminal.integrated.fontFamily": "Monoid Regular, Monoid, Roboto Mono for Powerline",
+    // "editor.fontFamily": "Monoid Regular, Menlo, Monaco, 'Courier New', monospace"
+
+    "workbench.colorTheme": "Oceanic Plus",
+    "workbench.iconTheme": "vscode-icons",   
+    "workbench.productIconTheme": "fluent-icons",
+    "workbench.colorCustomizations": {
+        // "editorLineNumber.foreground": "#999",
+        // "editorLineNumber.activeForeground": "#ff0000",
+        // "gitlens.gutterBackgroundColor": "#ff0000",
+        "editorIndentGuide.activeBackground": "#506069",
+        "editorIndentGuide.background": "#3D4C55",
+        "statusBar.background": "#162730"
+    },
+    "window.title": "${rootName}", // и так всё ясно
+
+    // Финт чтобы уменьшить панель слева
+    "editor.fontSize": 14,
+    "window.zoomLevel": -1,
+
+    // чтобы не страдать во время старта
+    "window.restoreWindows": "one",
+    // "workbench.startupEditor": "newUntitledFile", // Чтобы сразу можно было начать писать
+    
+    // экономь секунду
+    "files.autoSave": "onFocusChange",
+    "git.autofetch": true,
+
+    // Мульти курсор как в саблайме
+    "editor.multiCursorModifier": "ctrlCmd",
+    
+    // Не умничай / не задавай лишних вопросов / не следи
+    "editor.formatOnPaste": false,
+    "explorer.confirmDragAndDrop": false,
+    "explorer.confirmDelete": false,
+    "telemetry.telemetryLevel": "off",
+    "vsicons.dontShowNewVersionMessage": true,
+
+    // Что-бы что-то там не мелькало
+    // "editor.quickSuggestionsDelay": 0,
+
+    // Extentions
+    "projectManager.projectsLocation": "/Users/isuvorov/projects",
+    "projectManager.removeCurrentProjectFromList": false,
+
+    // Experiments
+    "search.mode": "newEditor",
+
+    // ---------------- ХЗ ---------------- 
+    // "javascript.validate.enable": false,
+    // "editor.tabSize": 2,
+    // "typescript.validate.enable": false,
+    // "javascript.updateImportsOnFileMove.enabled": "never",
+
+    // "workbench.editor.decorations.badges": true,
+    // "workbench.editor.enablePreviewFromCodeNavigation": true,
+    // "editor.acceptSuggestionOnCommitCharacter": false,
+
+    // "projects.statusbarCommand": "projects.openNewWindow",
+    // "typescript.format.enable": false,
+    // "editor.fontFamily": " Monoid Regular, Menlo, Monaco, 'Courier New', monospace"
+
+    // "markdown-preview-enhanced.liveUpdate": false,
+    // "markdown-preview-enhanced.previewTheme": "github-light.css",
+    // "markdown-preview-enhanced.printBackground": false,
+    // "markdown-preview-enhanced.frontMatterRenderingOption": "none",
+    // "markdown-preview-enhanced.revealjsTheme": "serif.css",
+    // "markdown-preview-enhanced.mermaidTheme": "forest",
+
+    // "cSpell.enabled": false,
+}

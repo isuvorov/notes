@@ -1,0 +1,9 @@
+{
+	"eslint-disable-line": {
+		"prefix": "eslignore",
+		"body": [
+			"$0 //eslint-disable-line"
+		],
+		"description": "Disable ESLint for the given line"
+	}
+}

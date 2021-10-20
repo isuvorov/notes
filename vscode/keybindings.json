@@ -1,0 +1,42 @@
+// Place your key bindings in this file to override the defaults
+[
+    {
+        "key": "cmd+`",
+        "command": "eslint.applyAllFixes",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "cmd+g",
+        "command": "workbench.action.gotoLine"
+    },
+    {
+        "key": "ctrl+g",
+        "command": "-workbench.action.gotoLine"
+    },
+    {
+        "key": "cmd+[IntlBackslash]",
+        "command": "eslint.executeAutofix"
+    },
+    {
+        "key": "ctrl+cmd+p",
+        "command": "projectManager.listProjectsNewWindow",
+    },
+    {
+        "key": "cmd+shift+d",
+        "command": "editor.action.copyLinesDownAction"
+    },
+    {
+        "key": "cmd+ъ",
+        "command": "editor.action.insertSnippet",
+        "args": {
+        "name": "eslint-disable-line"
+        }
+    },
+    {
+        "key": "cmd+]",
+        "command": "editor.action.insertSnippet",
+        "args": {
+        "name": "eslint-disable-line"
+        }
+    }
+]
