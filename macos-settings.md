@@ -2,10 +2,9 @@
 # 🎓 MacOS settings & Lifehacks
 Системные настройки MacOS и лайфхаки
 
-Its the part of [🎓 MacOS Starter Kit](https://github.com/isuvorov/notes/macos-starter-kit.md)
+Its the part of 🎓 [MacOS Starter Kit](https://github.com/isuvorov/notes)
 
 
-1. [🎓 MacOS settings & Lifehacks](./macos-settings.md) – Системные настройки MacOS и лайфхаки
 
 1. System preferences
 	1. General
