@@ -1,12 +1,9 @@
 # VSCODE 
 
-### `ctrl+shift+p` - поиск по командам
-
-* shell command: install code command in PATH
-
-### Работа с деревом
-* `ctrl+\`, `cmd-\` - показать скрыть дерево
-* `alt+\`, `ctrl-0` - переместиться в дерево, но не обратно
+## First launch 
+1. Trust ~/projects
+2. `ctrl+shift+p` > install code command in PATH
+3. Relaunch Terminal App
 
 ## Использую тему
 
@@ -237,3 +234,11 @@ eslint.code-snippets
 	}
 }
 ```
+
+
+
+## Hot-keys
+*  `ctrl+shift+p` - поиск по командам
+* `ctrl+\`, `cmd-\` - показать скрыть дерево
+* `alt+\`, `ctrl-0` - переместиться в дерево, но не обратно
+
