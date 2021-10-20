@@ -3,6 +3,12 @@ Settings, Extentions & Lifehacks. Настройки VSCode, подборка п
 
 Its the part of [🎓 MacOS Starter Kit](https://github.com/isuvorov/notes)
 
+# Quickstart
+
+```bash
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/isuvorov/bash/HEAD/vscode.sh)"
+```
+
 ## First launch 
 1. Trust ~/projects
 2. `ctrl+shift+p` > install code command in PATH
@@ -59,14 +65,6 @@ https://marketplace.visualstudio.com/items?itemName=jgclark.vscode-todo-highligh
 code --install-extension jgclark.vscode-todo-highlight
 ```
 
-
-### Highlight TODO, FIXME etc
-
-https://marketplace.visualstudio.com/items?itemName=jgclark.vscode-todo-highlight
-
-```bash
-code --install-extension jgclark.vscode-todo-highlight
-```
 
 ### Eslint
 
@@ -133,6 +131,22 @@ https://marketplace.visualstudio.com/items?itemName=christian-kohler.path-intell
 code --install-extension christian-kohler.path-intellisense
 ```
 
+### christian-kohler.path-intellisense
+
+https://marketplace.visualstudio.com/items?itemName=wix.vscode-import-cost
+
+```bash
+code --install-extension wix.vscode-import-cost
+```
+
+### sleistner.vscode-fileutils
+
+https://marketplace.visualstudio.com/items?itemName=sleistner.vscode-fileutils
+
+```bash
+code --install-extension sleistner.vscode-fileutils
+```
+
 #### TODO: in progress
 
 ```bash
@@ -147,23 +161,10 @@ https://marketplace.visualstudio.com/items?itemName=msjsdiag.debugger-for-chrome
 https://marketplace.visualstudio.com/items?itemName=ryu1kn.partial-diff
 https://marketplace.visualstudio.com/items?itemName=shd101wyy.markdown-preview-enhanced
 https://marketplace.visualstudio.com/items?itemName=silvenon.mdx
-https://marketplace.visualstudio.com/items?itemName=sleistner.vscode-fileutils
 https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker
 https://marketplace.visualstudio.com/items?itemName=jpoissonnier.vscode-styled-components
 ```
 
-```bash
-extensions=(
-  "formulahendry.terminal"
-)
-
-echo "Установка расширений и тем..."
-
-for ext in "${extensions[@]}"
-do
-  code --install-extension $ext
-done
-```
 
 ### User Settings
 

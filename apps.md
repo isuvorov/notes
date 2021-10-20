@@ -4,11 +4,19 @@ Best MacOS Apps, advanced settings. HomeBrew. Установка софта с �
 Its the part of [🎓 MacOS Starter Kit](./macos-starter-kit.md)
 
 # Homebrew (also Brew) - best packages manages (App Store for developers)
-Install
-```
+
+Install:
+```bash
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
 [More info](https://brew.sh/)
+
+
+# Quickstart
+
+```bash
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/isuvorov/bash/HEAD/apps.sh)"
+```
 
 
 # Console utilites
@@ -82,7 +90,7 @@ More info: [🎓 Node.js Starter Kit](./nodejs.md) – Node.js, GIT, GPG setting
 # GUI Apps
 
 ## 1Password
-`brew install —-cask 1password`
+`brew install --cask 1password`
 - [https://apps.apple.com/ru/app/1password-7-password-manager/id1333542190](https://apps.apple.com/ru/app/1password-7-password-manager/id1333542190) 
 
 ## 3T MongoChef
@@ -165,7 +173,7 @@ Spectacle.app analogue
 `brew install --cask slack`
 
 ## Spectacle
-`brew install —-cask spectacle`
+`brew install --cask spectacle`
 
 1. [Settings > Privacy > Accessibility > Enable]
 2. Launch at login
