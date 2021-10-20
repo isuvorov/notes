@@ -1,5 +1,11 @@
 
-# System settings
+# 🎓 MacOS settings & Lifehacks
+Системные настройки MacOS и лайфхаки
+
+Its the part of [🎓 MacOS Starter Kit](https://github.com/isuvorov/notes/macos-starter-kit.md)
+
+
+1. [🎓 MacOS settings & Lifehacks](./macos-settings.md) – Системные настройки MacOS и лайфхаки
 
 1. System preferences
 	1. General
@@ -16,7 +22,7 @@
 			3. Show keyboard and emoji viewers in menu bar
 				1. [enable]
 		2. Tab: Text
-			1. Add replace: `suvorov` => `suvorov.igor.90@gmail.com`
+			1. Add replace: `suvorov.` => `suvorov.igor@gmail.com`
 			2. Correct spelling automatically 
 				1. Disable
 			3. Capitalise words automatically

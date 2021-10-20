@@ -16,7 +16,7 @@
 			1. Repeat - fast
 			2. Kea
 		3. Text
-			1. suvorov. => suvorov.igor.90@gmail.com 
+			1. hi. => hi.there@isuvorov.com
 			2. 
 	5. Trackpad
 		1. Most Gestures
