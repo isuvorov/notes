@@ -1,7 +1,7 @@
 # 🎓 Node.js Starter Kit
 Node.js, GIT, GPG settings, best global NPM packages
 
-Its the part of [🎓 MacOS Starter Kit](https://github.com/isuvorov/notes/macos-starter-kit.md)
+Its the part of 🎓 [MacOS Starter Kit](https://github.com/isuvorov/notes)
 
 		1. nodemon
 

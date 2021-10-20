@@ -1,7 +1,7 @@
 # 🎓 VSCode Starter Kit
 Settings, Plugins & Lifehacks. Настройки VSCode, подборка плагинов и лайфхаки.
 
-Its the part of [🎓 MacOS Starter Kit](https://github.com/isuvorov/notes/macos-starter-kit.md)
+Its the part of [🎓 MacOS Starter Kit](https://github.com/isuvorov/notes)
 
 ## First launch 
 1. Trust ~/projects
