@@ -6,7 +6,7 @@ Its the part of [🎓 MacOS Starter Kit](https://github.com/isuvorov/notes)
 # Quickstart
 
 ```bash
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/isuvorov/bash/HEAD/vscode.sh)"
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/isuvorov/notes/HEAD/vscode.sh)"
 ```
 
 ## First launch 

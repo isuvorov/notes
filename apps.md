@@ -15,7 +15,7 @@ Install:
 # Quickstart
 
 ```bash
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/isuvorov/bash/HEAD/apps.sh)"
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/isuvorov/notes/HEAD/apps.sh)"
 ```
 
 
