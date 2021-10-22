@@ -6,4 +6,4 @@ Manual for tune your new
 3. 🎓 [Apps Starter Kit](./apps.md) – Best MacOS Apps, advanced settings. HomeBrew. Установка софта с помощью brew.
 4. 🎓 [Node.js Starter Kit](./nodejs.md) – Node.js, GIT, GPG settings, best global NPM packages
 5. 🎓 [VSCode Starter Kit](./vscode.md) - Settings, Plugins & Lifehacks. Настройки VSCode, подборка плагинов и лайфхаки.
-6. Backup and Restore configs – in progress (скрипт для бекапа-рестора конфигов  (профилей хрома, телеги, постмана, монги и тп))
+6. 🎓 [Backup Starter Kit](./copy.md) – in progress (скрипт для бекапа-рестора конфигов  (профилей хрома, телеги, постмана, монги и тп))

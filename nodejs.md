@@ -6,46 +6,64 @@ Its the part of 🎓 [MacOS Starter Kit](https://github.com/isuvorov/notes)
 		1. nodemon
 
 
+# TODO: Node.js
+# TODO: NPM global libs
 
+# GPG
 
-# GPG - Truth
+Installing 
+```bash
+brew install gnupg2 pinentry-mac
+ln -s /usr/local/bin/gpg /usr/local/bin/gpg2
 ```
-brew install gnupg gnupg2 pinentry-mac diff-so-fancy
+
+(Generate your key)[https://docs.github.com/en/authentication/managing-commit-signature-verification/generating-a-new-gpg-key]
+
+List of all GPG keys in your db and copy <YOUR_SIGNING_KEY>, like `B97E9964ACAD1907970D37CC8A9E3745558E41AF`
+```bash
 gpg --list-keys
+```
+
+Setup GPG config
+```bash
 git config --global user.signingkey <YOUR_SIGNING_KEY>
 git config --global commit.gpgsign true
 git config --global gpg.program gpg
--------------------
-echo "test" | gpg --clearsign  
-------------------
-export GPG_TTY=$(tty)
-git commit -S -m "message"
-------------------
-git log --show-signature -1
-------------------
-Source Tree
-
-> error: gpg failed to sign the data
-
-> или не вставился пасскод
-> или в настройках не правильный путь
-
-/usr/local/Cellar/gnupg@1.4/1.4.23_1/bin/gpg
-
-
-
 echo "pinentry-program /usr/local/bin/pinentry-mac" >> ~/.gnupg/gpg-agent.conf
-
-killall gpg-agent && gpg-agent --daemon --use-standard-socket --pinentry-program /usr/local/bin/pinentry
-
 ```
-`
+
+Test GPG working correct
+```bash
+echo "test" | gpg --clearsign  
+```
+
+Try to commit something and save your passphrase in keychain.
+```bash
+export GPG_TTY=$(tty) 
+git commit -S -m "message"
+```
+
+Check that all correct
+```bash
+git log --show-signature -1
+```
+
+
+## Source Tree
+
+Если происходит ошибка
+> error: gpg failed to sign the data
+Напишите мне – разберемся
+
+
+Возможные решения:
+
+```bash
+killall gpg-agent && gpg-agent --daemon --use-standard-socket --pinentry-program /usr/local/bin/pinentry
+```
 
 - [gnupg - Git error - gpg failed to sign data - Stack Overflow](https://stackoverflow.com/questions/41052538/git-error-gpg-failed-to-sign-data)
-gitflow
-
-
+- [github - gpg failed to sign the data fatal: failed to write commit object Git 2.10.0 - Stack Overflow](https://stackoverflow.com/questions/39494631/gpg-failed-to-sign-the-data-fatal-failed-to-write-commit-object-git-2-10-0)
 - [GnuPG - Download](https://gnupg.org/download/index.html)
 
-
-[github - gpg failed to sign the data fatal: failed to write commit object Git 2.10.0 - Stack Overflow](https://stackoverflow.com/questions/39494631/gpg-failed-to-sign-the-data-fatal-failed-to-write-commit-object-git-2-10-0)
+# TODO: Git flow
