@@ -7,6 +7,13 @@ Its the part of 🎓 [MacOS Starter Kit](https://github.com/isuvorov/notes)
 
 
 # TODO: Node.js
+
+
+# NPM
+
+
+## Legacy Peer Deps problem
+- https://github.com/npm/rfcs/discussions/283
 # TODO: NPM global libs
 
 # GPG
@@ -67,3 +74,4 @@ killall gpg-agent && gpg-agent --daemon --use-standard-socket --pinentry-program
 - [GnuPG - Download](https://gnupg.org/download/index.html)
 
 # TODO: Git flow
+
