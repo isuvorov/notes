@@ -62,6 +62,8 @@ git log --show-signature -1
 > error: gpg failed to sign the data
 Напишите мне – разберемся
 
+Source Tree использует другой gpg, нужно как-то подменить
+
 
 Возможные решения:
 
