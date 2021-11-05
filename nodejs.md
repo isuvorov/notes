@@ -76,5 +76,12 @@ killall gpg-agent && gpg-agent --daemon --use-standard-socket --pinentry-program
 - [GnuPG - Download](https://gnupg.org/download/index.html)
 
 
+> cannot run gpg: No such file or directory
+
+
+git config --global gpg.program "$(which gpg)"
+https://stackoverflow.com/questions/36941533/git-hub-desktop-on-mac-error-cannot-run-gpg-no-such-file-or-directory
+
+
 # TODO: Git flow
 
