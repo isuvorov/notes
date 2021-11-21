@@ -24,7 +24,7 @@ brew install gnupg2 pinentry-mac
 ln -s /usr/local/bin/gpg /usr/local/bin/gpg2
 ```
 
-(Generate your key)[https://docs.github.com/en/authentication/managing-commit-signature-verification/generating-a-new-gpg-key]
+[Generate your key](https://docs.github.com/en/authentication/managing-commit-signature-verification/generating-a-new-gpg-key)
 
 List of all GPG keys in your db and copy <YOUR_SIGNING_KEY>, like `B97E9964ACAD1907970D37CC8A9E3745558E41AF`
 ```bash
