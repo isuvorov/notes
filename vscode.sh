@@ -25,5 +25,3 @@ do
 done
 
 echo "Installing VSCode extentions – done"
-
-```
