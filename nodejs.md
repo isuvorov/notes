@@ -45,6 +45,7 @@ export GPG_TTY=$(tty)
 echo "test" | gpg --clearsign  
 ```
 
+
 Try to commit something and save your passphrase in keychain.
 ```bash
 export GPG_TTY=$(tty) 
