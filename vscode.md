@@ -168,9 +168,9 @@ https://marketplace.visualstudio.com/items?itemName=jpoissonnier.vscode-styled-c
 
 ### User Settings
 
-- (settings.json)[./vscode/settings.json]
-- (keybindings.json)[./vscode/keybindings.json]
-- (eslint.code-snippets)[./vscode/eslint.code-snippets]
+- [settings.json](./vscode/settings.json)
+- [keybindings.json](./vscode/keybindings.json)
+- [eslint.code-snippets](./vscode/eslint.code-snippets)
 
 ## Hot-keys
 * `ctrl+shift+p` - поиск по командам
