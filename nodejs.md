@@ -41,6 +41,7 @@ echo "pinentry-program /usr/local/bin/pinentry-mac" >> ~/.gnupg/gpg-agent.conf
 
 Test GPG working correct
 ```bash
+export GPG_TTY=$(tty)
 echo "test" | gpg --clearsign  
 ```
 
