@@ -191,7 +191,7 @@ Spectacle.app analogue
 `brew install --cask sourcetree`
 
 ## iTerm
-`brew install --cask iterm`
+`brew install --cask iterm2`
 
 More info: [🎓 Terminal Starter Kit](https://github.com/isuvorov/bash) – iTerm2, oh-my-zsh, BASH & ZSH Aliases
 
