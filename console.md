@@ -1,6 +1,9 @@
 # Шпаргалка по линуксу, утилитам, консоли, базам
 -------
 
+## Узнать DNS инфу по домену
+dig google.com
+
 ## Linux
 
 ### Базовые команды
@@ -202,3 +205,5 @@ mongodump --host ds34456436.mongolab.com -d dbname --port 876867 --username user
 ```bash
 mongorestore --host localhost --port 21017 -d dbNewName ~/db/dbname
 ```
+
+
