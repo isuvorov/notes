@@ -87,3 +87,10 @@ rsync -avz $OLDHOME/Library/Application\ Support/JetBrains/ ~/Library/Applicatio
 ```
 
 (more info)[https://intellij-support.jetbrains.com/hc/en-us/articles/206544519-Directories-used-by-the-IDE-to-store-settings-caches-plugins-and-logs]
+
+
+## Node.js projects
+
+```bash
+rsync -avz --exclude=node_modules --exclude=.git $OLDHOME/projects/some-project/ ~/projects/some-project/
+```
