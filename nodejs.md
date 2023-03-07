@@ -76,6 +76,7 @@ killall gpg-agent && gpg-agent --daemon --use-standard-socket --pinentry-program
 - [gnupg - Git error - gpg failed to sign data - Stack Overflow](https://stackoverflow.com/questions/41052538/git-error-gpg-failed-to-sign-data)
 - [github - gpg failed to sign the data fatal: failed to write commit object Git 2.10.0 - Stack Overflow](https://stackoverflow.com/questions/39494631/gpg-failed-to-sign-the-data-fatal-failed-to-write-commit-object-git-2-10-0)
 - [GnuPG - Download](https://gnupg.org/download/index.html)
+- https://community.atlassian.com/t5/Bitbucket-questions/can-t-commit/qaq-p/719732
 
 
 > cannot run gpg: No such file or directory
